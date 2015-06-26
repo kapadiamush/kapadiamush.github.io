@@ -1,0 +1,15 @@
+# Site settings
+title: The Noob Programmer
+header-img: img/home-bg.jpg
+email: kapadiamush@gmail.com
+description: "A Tech Blog for Programming Noobs"
+baseurl: ""
+url: "http://thenoobprogrammer.com"
+twitter_username: mushkapadia1
+github_username:  kapadiamush
+
+# Build settings
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]

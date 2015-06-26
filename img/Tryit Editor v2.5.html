@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<!-- saved from url=(0074)http://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_textarea_value2 -->
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Tryit Editor v2.5</title>
+<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="http://www.w3schools.com/trystyle.css">
+<!--[if lt IE 8]>
+<style>
+.textareacontainer, .iframecontainer {width:48%;}
+.textarea, .iframe {height:800px;}
+#textareaCode, #iframeResult {height:700px;}
+.menu img {display:none;}
+</style>
+<![endif]-->
+<script async="" type="text/javascript" src="./Tryit Editor v2.5_files/gpt.js"></script><script async="" src="./Tryit Editor v2.5_files/analytics.js"></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-3855518-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script><style type="text/css">.pns_lightbox_container_border {
+  border-radius: initial;
+  padding: 6px;
+}
+
+.pns_lightbox_close {
+  top: 10px !important;
+  right: 5px !important;
+  font-size: 20px !important;
+}
+
+.pns_lightbox_close .close-x {
+  -webkit-filter: invert(60%);
+  filter: invert(60%);
+  height: 25px;
+}
+
+.pns_lightbox_close .close-x:hover {
+  top: -1px; 
+}
+
+.pns_lightbox_container {
+  background-color: #f7f9f9 !important;
+}
+
+.pns_lightbox_container_border {
+  border: none;
+  background-color: rgba(0,0,0,0);
+}
+
+iframe.important-dim-empty {
+  width: 0 !important;
+  height: 0 !important;
+}
+
+
+iframe.important-dim-full {
+  width: 300px !important;
+  height: 100% !important;
+}
+</style><style type="text/css"></style>
+<script>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+<script type="text/javascript">
+ // GPT slots
+ var gptAdSlots = [];
+ googletag.cmd.push(function() {
+
+   var leaderMapping = googletag.sizeMapping().
+   // Mobile ad
+   addSize([0, 0], [320, 50]). 
+   // Vertical Tablet ad
+   addSize([468, 0], [468, 60]). 
+   // Horizontal Tablet
+   addSize([728, 0], [728, 90]).
+   // Desktop and bigger ad
+   addSize([970, 0], [[728, 90], [970, 90]]).build();
+
+   gptAdSlots[0] = googletag.defineSlot('/16833175/TryitLeaderboard', [[728, 90], [970, 90]], 'div-gpt-ad-1428407818244-0').
+   defineSizeMapping(leaderMapping).addService(googletag.pubads());
+
+
+   googletag.pubads().setTargeting("content","tryjs");
+   googletag.enableServices();
+ });
+</script>
+<script>
+if (window.addEventListener) {              
+    window.addEventListener("resize", browserResize);
+} else if (window.attachEvent) {                 
+    window.attachEvent("onresize", browserResize);
+}
+var xbeforeResize = window.innerWidth;
+
+function browserResize() {
+    var afterResize = window.innerWidth;
+    if ((xbeforeResize < (970) && afterResize >= (970)) || (xbeforeResize >= (970) && afterResize < (970)) ||
+        (xbeforeResize < (728) && afterResize >= (728)) || (xbeforeResize >= (728) && afterResize < (728)) ||
+        (xbeforeResize < (468) && afterResize >= (468)) ||(xbeforeResize >= (468) && afterResize < (468))) {
+        xbeforeResize = afterResize;
+        googletag.cmd.push(function() {
+            googletag.pubads().refresh([gptAdSlots[0]]);
+        });
+    }
+}
+</script>
+<script type="text/javascript">
+function submitTryit()
+{
+var t=document.getElementById("textareaCode").value;
+t=t.replace(/=/gi,"w3equalsign");
+var pos=t.search(/script/i)
+while (pos>0)
+	{
+	t=t.substring(0,pos) + "w3" + t.substr(pos,3) + "w3" + t.substr(pos+3,3) + "tag" + t.substr(pos+6);
+	pos=t.search(/script/i);
+	}
+if ( navigator.userAgent.match(/Safari/i) ) {
+	    t=escape(t);
+	    document.getElementById("bt").value="1";
+	}
+document.getElementById("code").value=t;
+document.getElementById("tryitform").action="tryit_view.asp?x=" + Math.random();
+validateForm();
+document.getElementById("iframeResult").contentWindow.name = "view";
+document.getElementById("tryitform").submit();
+}
+function validateForm()
+{
+var code=document.getElementById("code").value;
+if (code.length>8000)
+	{
+	document.getElementById("code").value="<h1>Error</h1>";
+	}
+}
+</script>
+<style>
+
+</style>
+<script async="" type="text/javascript" src="http://partner.googleadservices.com/gpt/pubads_impl_62.js"></script></head>
+<body>
+<div id="tryitLeaderboard">
+<!-- TryitLeaderboard -->
+<div id="div-gpt-ad-1428407818244-0">
+<script type="text/javascript">googletag.cmd.push(function() { googletag.display('div-gpt-ad-1428407818244-0'); });</script>
+</div>
+</div>
+
+<div class="container">
+  <div class="textareacontainer">
+    <div class="textarea">
+      <div style="overflow:auto;">
+        <div class="headerText">Edit This Code:</div>
+        <button class="seeResult" type="button" onclick="submitTryit()">See Result »</button>
+      </div>
+      <div class="textareawrapper">
+        <textarea autocomplete="off" class="code_input" id="textareaCode" wrap="logical" spellcheck="false">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+Address:&lt;br&gt;
+&lt;textarea id="myTextarea"&gt;
+342 Alvin Road
+Ducksburg&lt;/textarea&gt;
+
+&lt;p&gt;Click the button to change the contents of the text area.&lt;/p&gt;
+
+&lt;button type="button" onclick="myFunction()"&gt;Try it&lt;/button&gt;
+
+&lt;script&gt;
+function myFunction() {
+    document.getElementById("myTextarea").value = "Fifth Avenue, New York City";
+}
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</textarea>
+          <form autocomplete="off" style="margin:0px;display:none;" action="./Tryit Editor v2.5_files/tryit_view.html" method="post" target="view" id="tryitform" name="tryitform" onsubmit="validateForm();">
+            <input type="hidden" name="code" id="code" value="%3C%21DOCTYPE%20html%3E%0A%3Chtml%3E%0A%3Cbody%3E%0A%0AAddress%3A%3Cbr%3E%0A%3Ctextarea%20idw3equalsign%22myTextarea%22%3E%0A342%20Alvin%20Road%0ADucksburg%3C/textarea%3E%0A%0A%3Cp%3EClick%20the%20button%20to%20change%20the%20contents%20of%20the%20text%20area.%3C/p%3E%0A%0A%3Cbutton%20typew3equalsign%22button%22%20onclickw3equalsign%22myFunction%28%29%22%3ETry%20it%3C/button%3E%0A%0A%3Cw3scrw3ipttag%3E%0Afunction%20myFunction%28%29%20%7B%0A%20%20%20%20document.getElementById%28%22myTextarea%22%29.value%20w3equalsign%20%22Fifth%20Avenue%2C%20New%20York%20City%22%3B%0A%7D%0A%3C/w3scrw3ipttag%3E%0A%0A%3C/body%3E%0A%3C/html%3E%0A">
+            <input type="hidden" id="bt" name="bt" value="1">
+          </form>
+       </div>
+    </div>
+  </div>
+  <div class="iframecontainer">
+    <div class="iframe">
+      <div style="overflow:auto;">
+        <div class="headerText">Result:</div>
+      </div>
+      <div class="iframewrapper">
+        <iframe id="iframeResult" class="result_output" frameborder="0" name="view"></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="footerText">Try it Yourself - © <a href="http://www.w3schools.com/">w3schools.com</a></div>      
+</div>
+<script>submitTryit()</script><script async="" type="text/javascript" src="./Tryit Editor v2.5_files/check_359604.js"></script><iframe src="about:blank" width="0" height="0" style="visibility: hidden !important; display: none !important; opacity: 0 !important;"></iframe>
+
+</body></html>
