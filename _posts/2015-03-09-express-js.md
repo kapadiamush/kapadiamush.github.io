@@ -4,6 +4,7 @@ subtitle: What's a framework bro?
 description: A quick explanation of all things ExpressJS. 
 layout: post
 image: /img/express-logo.png
+author: Mushaheed Kapadia
 ---
 
 ### ExpressJS

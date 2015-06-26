@@ -4,6 +4,7 @@ subtitle: No one's stealing (data) from us.
 description: Moving on to authentication using PassportJS.
 layout: post
 image: /img/PassportJS.svg
+author: Mushaheed Kapadia
 ---
 
 ### PassportJS

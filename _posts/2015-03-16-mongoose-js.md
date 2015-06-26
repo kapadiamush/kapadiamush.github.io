@@ -4,6 +4,7 @@ subtitle: Seriously... Who needs dogs or diamonds?
 description: Web Applications aren't complete without persistant storage. You'll need to keep track of all your data, so that you can continually restart and update your application without losing all of your data.
 layout: post
 image: /img/mongoose.png
+author: Mushaheed Kapadia
 ---
 
 ### MongooseJS
