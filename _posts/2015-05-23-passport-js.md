@@ -36,7 +36,9 @@ For our application, we'll be defining our own local strategy. It'll help us bui
 
 Because we love modularization, we'll put our passport configurations in a folder called `config` and its own module called `passport_config.js`. 
 
-##### Multi-User Types
+When we're defining a strategy, we're calling a function that takes in two arguments. The first is a JSON object that we'll talk about more in a bit, and the second is a callback function that does the checking that we need. 
+
+###### Aside: Multi-User Types
 
 
 ##### External Strategies
